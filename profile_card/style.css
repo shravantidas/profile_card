@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins';
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(90deg, rgba(211,243,243,1) 18%, rgba(122,234,251,1) 53%, rgba(207,243,248,1) 90%);
+    height: 100vh;
+}
+.container{
+    background-color: rgb(238, 231, 231,0.7);
+    width: 350px;
+    height: 360px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid rgb(195, 195, 249);
+
+}
+.img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-left:120px;
+    margin-top: 20px;
+    border: 2px solid rgb(195, 195, 249);
+}
+.detail-group h3{
+ text-align: center;
+ font-size: 17px;
+ margin-top: 20px;
+ color: rgb(11, 11, 206);
+ font-size: 20px;
+}
+.detail-group h4{
+    text-align: center;
+    margin-top: 10px;
+    color: darkblue;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.detail-group p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(18, 119, 196);
+}
+p.contact{
+    margin-top: 15px;
+}
+p.contact span{
+    color: rgb(60, 47, 165);
+    font-weight: bold;
+    margin-left: 10px;
+}
+p.email span{
+    color: rgb(60, 47, 165);
+    font-weight: bold;
+    margin-left: 43px;
+}
